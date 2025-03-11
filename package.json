@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd Backend && npm start",
+    "client": "cd Frontend && npm start"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express-validator": "^7.2.1"
+  }
+}

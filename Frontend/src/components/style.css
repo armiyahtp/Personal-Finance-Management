@@ -1,0 +1,50 @@
+.navbarCSS {
+  padding: 15px 20px;
+  display: flex !important;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between !important;
+  width: 100vw;
+}
+
+.navItemCSS {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbarCSS {
+    padding: 0px !important;
+    margin-top: 0px !important;
+    display: flex;
+    gap: 5px;
+  }
+  .addNew {
+    display: none !important;
+  }
+  .mobileBtn {
+    display: inline-block !important;
+  }
+  .iconBtnBox {
+    border: 0px;
+  }
+  .date {
+    flex-direction: column;
+  }
+  .date .form-group {
+    width: 45%;
+  }
+  .containerBtn {
+    margin-left: 0px !important;
+  }
+}
+
+.tb {
+  background-color: #e6e6e6;
+  width: 80px;
+  height: 33px;
+  border-radius: 10px;
+}
